@@ -1,0 +1,334 @@
+@media(max-width: 1199.98px){
+    /* Main begin */
+    header{
+        background-position-x: center;
+    }
+
+    .bestGoods .content .text h4{
+        font-size: 23px;
+    }
+
+    .bestGoods .content .text p{
+        font-size: 16px;
+    }
+    /* Main end */
+
+
+
+    /* Product card begin */
+    .productView .price h6{
+        margin-bottom: 30px;
+    }
+    /* Product card end */
+}
+
+
+@media(max-width: 991.98px){
+    /* Main begin */
+    .dinaTex{
+        background-position-x: -150px;
+    }
+
+    .bestGoods .content{
+        flex-direction: column;
+    }
+
+    .bestGoods .content .text{
+        margin: 15px 0 0 0;
+        text-align: center;
+    }
+
+    .bestGoods .content img{
+        width: 60%;
+        text-align: center;
+    }
+
+    footer .content{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    footer .content{
+        text-align: center;
+    }
+    /* Main end */
+
+
+
+    /*  Category begin*/
+    .categoryHeader menu{
+        max-height: 395px;
+        overflow-y: scroll;
+    }
+    /*  Category end*/
+
+
+
+    /* Product card begin */
+    .productView .price{
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+    /* Product card end */
+}
+
+
+@media(max-width: 767.98px){
+    /* Main begin */
+    header .nav-links .links{
+        display: none;
+    }
+
+    header .menu-link{
+        display: flex;
+    }
+
+    header .menu-hide{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.5);
+        line-height: 36px;
+        padding: 15px 0;
+    }
+
+    header menu{
+        padding: 30px;
+    }
+
+    .dinaTex{
+        background-position-x: -300px;
+    }
+
+    .dinaTex p br{
+        display: initial;
+    }
+
+    .bestGoods .content img{
+        width: 100%;
+    }
+
+    .bestGoods .content{
+        padding: 0 20px;
+    }
+
+    .pay .content{
+        margin-top: 60px;
+    }
+
+    .pay h2{
+        margin-bottom: 14px;
+    }
+
+    .contacts .content-2{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .contacts .content{
+        text-align: center;
+    }
+
+    footer .content{
+        justify-content: space-between;
+    }
+
+    footer .content ul{
+        margin-top: 30px;
+    }
+
+    footer .content ul:nth-child(2n+1){
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    footer .content ul:nth-child(2n){
+        text-align: right;
+        padding: 0 40px 0 0;
+    }
+    /* Main end */
+
+
+
+    /* About begin */
+    .headerAbout{
+        background-position-x: center;
+    }
+
+    .production h4{
+        text-align: center;
+    }
+
+    .production .production-links{
+        text-align: center;
+    }
+
+    .production .production-links:last-of-type{
+        margin-top: 40px;
+    }
+
+    .market h4, .warranty h4{
+        text-align: center;
+    }
+
+    .clients .clientsName{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .clients .clientsName p{
+        margin: 0 !important;
+    }
+
+    .reviews .content p{
+        width: 85%;
+    }
+
+    .staff .text h6{
+        margin-bottom: 6px;
+        font-size: 45px;
+    }
+    /* About end */
+
+
+    /* Category begin */
+    .categoryHeader .menu-hide{
+        background: rgba(0, 0, 0, 0.9);
+    }
+
+    .categoryHeader .title .content .links{
+        justify-content: center !important;
+    }
+
+    .categoryHeader menu{
+        max-height: 385px;
+        overflow-y: scroll;
+    }
+    /* Category end */
+
+    
+
+
+    /* Product card begin */
+    .productCardHeader .menu-hide{
+        background: rgba(0, 0, 0, 0.9);
+    }
+
+    header.productCardHeader menu{
+        max-height: 400px !important;
+        overflow-y: scroll !important;
+    }
+    /* Product card end */
+
+}
+
+
+@media(max-width: 575.98px){
+    /* Main begin */
+    header{
+        background-position-x: -750px;
+    }
+
+    header .title .content{
+        text-align: center;
+    }
+
+    header .title .content h1{
+        font-size: 30px;
+    }
+
+    header menu{
+        padding: 20px;
+        max-height: 495px;
+        overflow-y: scroll;
+    }
+
+    header .menu-hide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .menu-hide a{
+        margin: 0;
+    }
+
+    .dinaTex p,
+    .dinaTex h3{
+        text-align: center;
+    }
+
+    .dinaTex p br{
+        display: none;
+    }
+
+    .contacts h4{
+        font-size: 29px;
+    }
+
+    footer .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .content ul{
+        text-align: center !important;
+        margin: 30px 0 0 0 !important;
+        padding: 0 !important;
+    }
+    /* Main end */
+
+
+    /*  Category begin*/
+    .categoryHeader menu{
+        max-height: 320px;
+        overflow-y: scroll;
+    }
+    /*  Category end*/
+
+
+
+    /* About begin */
+    .market,
+    .warranty{
+        padding-top: 255px;
+    }
+
+    .clients .clientsName{
+        font-size: 24px;
+    }
+
+    .staff .text h6{
+        font-size: 52px;
+    }
+    /* About end */
+
+
+
+    /* COntact begin */
+    .contactTg a{
+        padding: 12px 75px;
+    }
+    /* Contact end */
+
+
+
+    /* Product card begin */
+    .productView{
+        padding-top: 150px;
+    }
+
+    header.productCardHeader menu{
+        max-height: 265px !important;
+        overflow-y: scroll !important;
+    }
+    /* Product card end */
+
+
+    /* Contact begin */
+    headerХ{
+        background-position-x: center !important;
+    }
+    /* Contact end */
+}

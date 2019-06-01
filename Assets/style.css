@@ -1,0 +1,197 @@
+@import "../fonts/stylesheet.css";
+@import "../Assets/header.css";
+@import "../Assets/footer.css";
+@import "../Assets/form.css";
+
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto-reg';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.topCategories{
+    background-color: #fff;
+    padding: 50px 0 80px 0;
+}
+
+.topCategories .content,
+.allCategories .content{
+    position: relative;
+}
+
+.topCategories .content img,
+.allCategories .content img{
+    width: 100%;
+}
+
+.topCategories .col-xl-3,
+.allCategories .col-xl-3{
+    margin-top: 30px;
+}
+
+.topCategories h2,
+.allCategories h2,
+.bestGoods h2,
+.pay h2{
+    font-size: 30px;
+    color: #E20431;
+    margin: 0;
+    font-family: 'Roboto-bold';
+    margin-bottom: 4px;
+    line-height: 35px;
+}
+
+.topCategories .text,
+.allCategories .text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 7%;
+    left: 13.7%;
+}
+
+.topCategories .text a:first-child,
+.allCategories .text a:first-child{
+    font-family: 'Roboto-bold';
+    margin-bottom: 12px;
+    line-height: 19px;
+}
+
+.topCategories .text a,
+.allCategories .text a{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.allCategories{
+    padding-bottom: 30px;
+    background-color: #ffffff;
+}
+
+.dinaTex{
+    background: url(../img/bg-dinaTex.jpg) no-repeat;
+    background-size: cover;
+    padding: 98px 0;
+    position: relative;
+}
+
+.dinaTex p br{
+    display: none;
+}
+
+.dinaTex h3{
+    font-family: 'Roboto-bold';
+    color: #E20431;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0;
+}
+
+.dinaTex p{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 30px 0 0 0;
+    color: #484848;
+}
+
+.bestGoods{
+    padding: 50px 0 150px 0;
+    background-color: #fff;
+}
+
+.bestGoods .content .text{
+    color: #484848;
+    margin-left: 30px;
+}
+
+.bestGoods .content .text h4{
+    font-size: 30px;
+    font-family: 'Roboto-bold';
+    margin: 0;
+    line-height: 35px;
+}
+
+.bestGoods .content .text p{
+    margin: 33px 0;
+    font-size: 18px;
+}
+
+.bestGoods .content .text a{
+    border: 1px solid #C4C4C4;
+    color: #000000;
+    padding: 20px 78px;
+    display: inline-block;
+}
+
+.bestGoods .content img,
+.pay .content img{
+    flex-shrink: 0;
+}
+
+.bestGoods .content{
+    display: flex;
+    align-items: center;
+    padding: 0 30px 0 55px;
+}
+
+.bestGoods h2{
+    margin-bottom: 65px;
+}
+
+.bestGoods .slider{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestGoods .slick-arrow{
+    color: #C4C4C4;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 55px;
+    position: relative;
+}
+
+.bestGoods .slick-arrow:hover,
+.contacts form button:hover{
+    cursor: pointer;
+}
+
+.pay{
+    background: #F8F8F8;
+    padding: 50px 0 100px 0;
+}
+
+.pay h2{
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.pay .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    color: #484848;
+}
+
+.pay .content p{
+    margin: 10px 0 0 0;
+}
+
+.pay .row{
+    display: flex;
+    align-items: baseline;
+}

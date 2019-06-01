@@ -1,0 +1,224 @@
+@import "../fonts/stylesheet.css";
+@import "./header.css";
+@import "./footer.css";
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto-reg';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+header {
+    background: url(../img/about-bg.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 333px !important;
+}
+
+header .content {
+    text-align: center !important;
+}
+
+header .content p {
+    margin: 30px 0 0 0 !important;
+}
+
+header .allGoods {
+    color: #ffffff !important;
+}
+
+header .title {
+    margin-top: 271px !important;
+}
+
+header .aboutUs {
+    color: #E20431 !important;
+}
+
+.production {
+    background-color: #fff;
+    padding: 100px 0 97px 0;
+}
+
+.production h4 {
+    color: #E20431;
+    margin-bottom: 41px;
+    font-size: 16px;
+}
+
+.production .production-links {
+    line-height: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.production a {
+    color: #484848;
+    font-size: 18px;
+}
+
+.market {
+    background: url(../img/5-years.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 366px 0 98px 0;
+}
+
+.market h4,
+.warranty h4 {
+    font-size: 60px;
+    font-family: 'Roboto-bold';
+    margin: 0;
+}
+
+.clients {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.clients h4,
+.reviews h4 {
+    color: #E20431;
+    font-size: 30px;
+    font-family: 'Roboto-bold';
+    margin-bottom: 82px;
+    text-align: center;
+}
+
+.clients .clientsName {
+    color: #8A8A8A;
+    font-size: 30px;
+    line-height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clients .clientsName p {
+    margin: 0;
+}
+
+.clients .clientsName p:not(:last-child) {
+    margin-right: 76px;
+}
+
+.reviews {
+    background-color: #F8F8F8;
+    padding: 112px 0 88px 0;
+}
+
+.reviews h4 {
+    margin-bottom: 50px;
+}
+
+.reviews .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews .content h5 {
+    color: #484848;
+    font-size: 30px;
+    font-family: 'Roboto-bold';
+    margin: 25px auto;
+}
+
+.reviews .content p {
+    line-height: 36px;
+    color: #929292;
+    width: 66%;
+    text-align: center;
+}
+
+.reviews .reviewSlider {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews .slick-arrow {
+    color: #8B8B8B;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 55px;
+    position: relative;
+}
+
+.reviews .slick-arrow:hover {
+    cursor: pointer;
+}
+
+.warranty {
+    padding: 366px 0 98px 0;
+    background: url(../img/warranty-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.warranty h4 {
+    margin: 0;
+}
+
+.staff {
+    background-color: #fff;
+    background: #F4F4F4;
+    padding: 125px 0 86px 0;
+    color: #000000;
+}
+
+.staff .text h6 {
+    font-size: 60px;
+    font-family: 'Roboto-bold';
+    margin-bottom: 22px;
+}
+
+.staff .text p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.staff .wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.staff .row:first-child {
+    margin-bottom: 61px;
+}
+
+.staff .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.staff .content h6 {
+    font-size: 20px;
+    line-height: 36px;
+    font-family: 'Roboto-bold';
+    margin: 20px 0 0 0;
+}
+
+.staff .content p{
+    line-height: 36px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.staff img{
+    width: 100%;
+}

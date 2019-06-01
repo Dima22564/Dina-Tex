@@ -1,0 +1,134 @@
+@import "../fonts/stylesheet.css";
+@import "../Assets/header.css";
+@import "../Assets/footer.css";
+@import "../Assets/form.css";
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto-reg';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+header {
+    background: none !important;
+    background-color: #ffffff !important;
+    padding-bottom: 0 !important;
+}
+
+header a {
+    color: #000000 !important;
+}
+
+.productView {
+    background-color: #fff;
+    padding: 93px 0 100px 0;
+}
+
+header .menu-link span {
+    background-color: #000000 !important;
+}
+
+header .menu-hide {
+    top: 9% !important;
+}
+
+header .menu-hide a {
+    color: #ffffff !important;
+}
+
+header.productCardHeader menu{
+    background-color: #ececec !important;
+}
+
+.productView .cardSlider img {
+    width: 100%;
+}
+
+.productView .cardSlider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productView .slick-arrow {
+    color: #484848;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 45px;
+    position: relative;
+    z-index: 999;
+}
+
+.productView .slick-prev {
+    transform: translateX(230%);
+}
+
+.productView .slick-next {
+    transform: translateX(-230%);
+}
+
+.productView .slick-arrow:hover {
+    cursor: pointer;
+}
+
+.productView .price h6 {
+    color: #E20431;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'Roboto-bold';
+    margin: 0 0 50px 0;
+}
+
+.productView .price {
+    font-size: 18px;
+    color: #484848;
+    line-height: 27px;
+}
+
+.productView .price .composition p {
+    margin: 0;
+}
+
+.productView .price .composition p:not(:last-child) {
+    margin: 0 0 10px 0;
+}
+
+.productView .price .composition p span {
+    font-family: 'Roboto-bold';
+}
+
+.productView .price .description {
+    margin: 30px 0 0 0;
+}
+
+.productView .price .cost {
+    color: #E20431;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'Roboto-bold';
+    margin: 30px 0 0 0;
+}
+
+.productView .price .cost+span {
+    font-size: 12px;
+}
+
+.image {
+    min-height: 500px;
+    background: url(../img/img-product-card.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    width: 100vw;
+}
+

@@ -1,0 +1,25 @@
+@import "../fonts/stylesheet.css";
+@import "../Assets/form.css";
+
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto-reg';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+header .payLink{
+    color: #E20431 !important;
+}
+
+header .top .allGoods{
+    color: #ffffff !important;
+}

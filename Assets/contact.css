@@ -1,0 +1,60 @@
+@import "../fonts/stylesheet.css";
+@import "../Assets/header.css";
+@import "../Assets/footer.css";
+@import "../Assets/form.css";
+
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto-reg';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+header .contactLink{
+    color: #E20431 !important;
+}
+
+header .allGoods{
+    color: #ffffff !important;
+}
+
+header{
+    background: url(../img/contact-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+header .content h1,
+header .content p{
+    text-align: center;
+}
+
+.contactTg{
+    background-color: #F8F8F8;
+    padding: 57px 0 70px 0;
+}
+
+.contactTg h4{
+    font-size: 30px;
+    color: #484848;
+    text-align: center;
+    font-family: 'Roboto-bold';
+    margin-bottom: 46px;
+}
+
+.contactTg a{
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 36px;
+    padding: 12px 104px;
+    background: #484848;
+    margin: 0 auto;
+}

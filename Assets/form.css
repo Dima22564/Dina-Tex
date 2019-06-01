@@ -1,0 +1,93 @@
+.contacts{
+    padding: 118px 0 59px 0;
+    background-color: #fff;
+    position: relative;
+}
+
+.contacts form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts input{
+    border: none;
+    border-bottom: 2px solid #C4C4C4;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    outline: none;
+}
+
+.contacts input::placeholder{
+    color: #C4C4C4;
+    font-size: 16px;
+    font-family: 'Roboto-reg';
+}
+
+.contacts form button{
+    margin-top: 42px;
+    background: #484848;
+    padding: 20px 0;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto-reg';
+    transition: all 0.2s;
+}
+
+.contacts form button:hover{
+    cursor: pointer;
+    background-color: rgba(72, 72, 72, 0.85);
+}
+
+.contacts h4{
+    font-size: 30px;
+    color: #E20431;
+    font-family: 'Roboto-bold';
+    margin-bottom: 0 0 4px 0;
+    line-height: 35px;
+}
+
+.contacts .content-2 div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 19px;
+}
+
+.contacts .content-2 h4{
+    margin-bottom: 24px;
+}
+
+.contacts .content-2 div p{
+    color: #8C8C8C;
+    font-size: 18px;
+    font-family: 'Roboto-bold';
+    margin-bottom: 10px;
+}
+
+.contacts .content-2 div span,
+.contacts .content-2 div a{
+    color: #8C8C8C;
+}
+
+.contacts .content-2 div a:hover{
+    color: #E20431;
+}
+
+.contacts .telegram{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #50A5D5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 25px;
+    bottom: 34px;
+}
+
+.contacts .telegram i{
+    color: #fff;
+    font-size: 27px;
+}

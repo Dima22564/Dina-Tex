@@ -1,0 +1,41 @@
+footer{
+    padding: 40px 0 33px 0;
+    background: #484848;
+}
+
+footer .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .content ul{
+    list-style: none;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+footer .content ul a{
+    color: #ffffff;
+}
+
+footer .content ul a:hover{
+    color: #E20431;
+    transition: all 0.2s;
+}
+
+footer p{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer p span:first-child{
+    border-right: 1px solid #ffffff;
+    padding-right: 20px;
+}
+
+footer p span:last-child{
+    padding-left: 15px;
+}
